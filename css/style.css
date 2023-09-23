@@ -1,0 +1,572 @@
+.menu__block{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #373A3C;
+}
+
+
+.menu__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 163px;
+    margin-right: 287.98px;
+}
+
+.arrow_d{
+    margin-left: 15.02px;
+    margin-right: 24.02px;
+}
+
+
+.menu__texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+
+    
+}
+
+.header__menu{
+    color: #292929;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;                                                            
+    justify-content: space-between;
+    
+}
+
+.menu__text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__text_w{
+    color: #FFF;
+}
+
+.menu__text_g{
+    color: rgba(255, 255, 255, 0.50);
+    margin-right: 48px;
+}
+
+
+.menu__input{
+    width: 209.795px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    color: #435766;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__shapka{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    vertical-align: middle;
+}
+
+.menu__user{
+    margin-left: 29px;
+    margin-right: 9px;
+}
+
+.menu__text_e{
+    color: rgba(255, 255, 255, 0.50);
+    margin-right: 16px;
+}
+
+/* starwars */
+
+
+.starwars{
+    width: 1401px;
+    height: 640px;
+    flex-shrink: 0;
+    background-image: url("../img/Star-Wars-Battlefront-II-combat.png");
+    background-repeat: no-repeat;
+    
+}
+
+.starwars__block{
+    margin-top: 206px;
+    margin-left: 832px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.starwars__title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.starwars__postitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.starwars__btns{
+    display: inline-flex;
+    text-align: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+}
+
+.starwars__btnz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+    width: 136px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #8DD83D;
+}
+
+.starwars__btng{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+
+.icon__next{
+    padding-bottom: 314px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 57px;
+    align-items: center;
+}
+
+
+.crausel{
+    width: 50px;
+    height: 10px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 676px;
+    margin-top: 170px;
+}
+
+/* xbox */
+.xbox__offer{
+    width: 1400px;
+    height: 865px;
+    flex-shrink: 0;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+.xbox__logo{
+    width: 63px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.xbox__title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 563px;
+    margin-top: 16px;
+}
+
+.xbox__postitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 501px;
+}
+
+.text__description{
+    display: flex;
+    margin-left: 20px;
+    justify-content: start;
+    color: #435766;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.xbox__text{
+    margin-left: 20px;
+    color: #435766;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+}
+
+.xbox__btn{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+    width: 278px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #8DD83D;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: ;
+}
+
+.xbox__block{
+   
+
+}
+
+.xbox__logo{
+    margin-left: 669px;
+    margin-top: 64px;
+}
+
+
+.xbox__one{
+    margin-right: 55px;
+    margin-left: 162px;
+    width: 320px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #8DD83D;
+    background: #FFF;
+}
+
+.xbox__texts {
+    text-align: center;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; /
+
+}
+
+.mixer__streaming{
+    margin-right: 55px;
+    width: 320px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #8DD83D;
+    background: #FFF;
+}
+
+.free__games{
+    width: 320px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #8DD83D;
+    background: #FFF;
+}
+
+/* xbox design */
+
+
+
+.thrid__block{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1400px;
+    height: 480px;
+    flex-shrink: 0;
+    
+    background-image: url('../img/BG__xbox.png');
+}
+
+.design__stext{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.design__ftext{
+    width: 533px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn__text{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+}
+
+.btn__text_b{
+    margin-right: 15px;
+    width: 207px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+
+.btn__text_g{
+    width: 278px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #8DD83D;
+}
+
+.xbox__btns{
+    text-align: center;
+    margin-top: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.design__texts{
+    margin-left: 167px;
+}
+
+/* end */
+
+.end__block{
+    width: 1400px;
+    height: 395px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #373A3C;
+    display: flex;
+}
+
+.end__title{
+    color: #7DD42F;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.pil__text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.end__pillars{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-top: 58px;
+
+
+}
+
+.end__fpil{
+    margin-right: 345px;
+}
+
+
+
+.end__spil{
+    margin-right: 304px;
+}
+
+.end__title_f{
+    margin-bottom: 35px;
+    
+}
+
+.end_line{
+    width: 1200px;
+    height: 2px;
+    flex-shrink: 0;
+}
+
+.end__info{
+
+
+    align-items: end;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.end__left{
+
+    flex-direction: row;
+
+}
+
+.end__right{
+    margin-left: 400px;
+}
+
+/* reg */
+
+.reg__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    width: 300px;
+    height: 433px;
+    flex-shrink: 0;
+    fill: #FDFDFF;
+    filter: drop-shadow(0px 0px 30px rgba(0, 29, 108, 0.10));
+}
+
+.reg__title{
+    margin-bottom: 25px;
+    color: #979797;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.reg__inputs{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reg__send{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    background-color: #8DD83D;
+    border: none;
+    cursor: pointer;
+    color: #FDFDFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 240px;
+    height: 50px;
+    flex-shrink: 0;
+    
+}
+
+.reg__login{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.reg__input{
+    display: flex;
+    border: none;
+    width: 220px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.reg__actions{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
